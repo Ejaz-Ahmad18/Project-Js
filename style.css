@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+     height: 100%;
+     width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#box{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(20, 120, 90);
+    border-radius: 10px;
+}
+button{
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:active{
+background-color: blueviolet;
+}
+
+button:hover{
+scale: 0.95;
+}
